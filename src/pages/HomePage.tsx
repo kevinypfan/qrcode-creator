@@ -113,7 +113,7 @@ export const HomePage = () => {
           </Box>
         </Flex>
       </Flex>
-      <Flex justifyContent={"center"}>
+      <Flex justifyContent={"center"} className="no-print">
         <Flex
           padding={2}
           margin={"0 auto"}
