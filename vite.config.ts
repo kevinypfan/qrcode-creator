@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/qrcode-creator/',
   plugins: [react()],
   server: {
     proxy: {
